@@ -13,21 +13,21 @@ class SatSetting extends Component {
     }
 
     onChangeLong = (value) => {
-        console.log('value ', value)
+        console.log('Longitude ', value)
         this.setState({
             observerLong: value
         })
     }
 
     onChangeLat = (value) => {
-        console.log('value ', value)
+        console.log('Latitude ', value)
         this.setState({
             observerLat: value
         })
     }
 
     onChangeRadius = (value) => {
-        console.log('value ', value)
+        console.log('Radius ', value)
         this.setState({
             radius: value
         })
